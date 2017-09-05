@@ -38,7 +38,7 @@ def turn(board)
   if valid_move(board, idx)
     move(board, idx, player)
     display_board(board)
-  elsif
+  else
     turn(board)
   end
 end
